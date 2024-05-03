@@ -1,0 +1,61 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 840px;
+    height: 840px;
+    border: solid black;
+}
+body{
+    background-image:url("dark.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.grid div {
+    width: 30px;
+    height: 30px;
+}
+
+.pac-dot {
+    background-color: rgb(210, 33, 33);   
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-image: url("wall3.jpg");
+    background-repeat:none;
+}
+
+.power-pellet {
+    background-color:rgb(168, 3, 3);
+    border-radius: 10px;
+}
+
+.blinky {
+    background-image: url("dementor.jpeg");
+}
+
+.pinky {
+    background-image: url("dementor.jpeg");
+}
+
+.inky {
+    background-image: url("dementor.jpeg");
+}
+
+.clyde {
+    background-image: url("dementor.jpeg");     
+}
+
+.pac-man {
+    background-color:rgb(29, 59, 156);
+    border-radius: 10px;
+}
+.triwizard-cup{
+    background-color:cyan;
+}
+
+.scared-ghost {
+    background-color: aquamarine;
+}
